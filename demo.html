@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>
+
+    </h1>
+    <h2 id="one"></h2>
+    <p class="two"></p>
+    <img src="" alt="" id="images">
+    <script>
+        document.getElementsByTagName('h1')[0].innerHTML="hiiii this is from js";
+        document.getElementById('one').innerHTML="hiiii this is from js";
+        document.getElementById('one').style.color="red";
+        document.getElementsByClassName("two")[0].innerHTML="hii";
+        document.getElementById("images").src="https://avatars.githubusercontent.com/u/103719329?v=4";
+    </script> -->
+    <!-- <center>
+        <h1>OTP GENRATOR</h1>
+        <button onclick="generateOTP()">Generate OTP</button></center>
+    <h1 id="otp"></h1>
+    <script>
+        function generateOTP() {
+            var otp = 0;
+            for (var i = 0; i < 6; i++) {
+                var num = Math.ceil(Math.random() * 10);
+                otp = 10 * otp + num;
+            }
+            document.getElementById("otp").innerHTML = otp;
+            document.getElementById("otp").style.color = "white";
+            document.getElementById("otp").style.backgroundColor = "black";
+
+
+            alert(otp)
+        }
+    </script> -->
+    <!-- <button onclick="hii(),Add(10,12)">button</button>
+    <script>
+        function Add(a, b) {
+            alert(a + b)
+        }
+        // alert(add(4, 5));
+        const hii = () => {
+            console.log("hello world");
+        }
+        arr=[10,20,30,440];
+        var b=arr.map((e)=>{e*6});
+        console.log(b);//output will be undefined
+        arr.map(
+            (e)=>{
+                var s=e*6;
+                console.log(s);//here we will get output
+            }
+        ) -->
+        <script>
+        // var person={
+        //     name:"siddhu",
+        //     age:30,
+        //     place:"Guntur"
+        // };
+        // person.map(
+        //     (e)=>{
+        //         console.log(person(e));
+        //         alert(e);
+        //     }
+            
+        // );
+        const one=['have','hello','hii','byee'];
+        const d=one.filter((item)=>item.includes('h'))
+        d.map((item)=>{
+            console.log(item)
+        })
+        one.map((item)=>{
+            if(item.includes('h')){
+                console.log(item);
+            }
+        })
+    </script>
+</body>
+
+</html>

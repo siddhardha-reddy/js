@@ -56,11 +56,13 @@
 //math functions:-
 // we have different math functions
 // ceil,round,floor,sign,fround,random,log,sin,cos,tan,min,max
-//Spread Operator
-var ar1=[1,2,3,4,5]
-console.log(ar1);
-var ar2=[...ar1];
-console.log(ar2);
-a3=[223,23,456] 
-ar4=[...ar2,...a3]
-console.log(ar4);
+// //Spread Operator
+// var ar1 = [1, 2, 3, 4, 5]
+// console.log(ar1);
+// var ar2 = [...ar1];
+// console.log(ar2);
+// a3 = [223, 23, 456]
+// ar4 = [...ar2, ...a3]
+// console.log(ar4);
+// arrow functions
+const hii = () => { console.log("hello world"); }

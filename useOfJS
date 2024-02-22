@@ -3,4 +3,9 @@ we use js for
 -sending data to the servers
 -storing info in variables
 -it completely helps to build websites
--
+Elements in js:-
+1-document.getElementById("id of the tag")------used to get the reference of tag with the specific id
+2-document.getElementsByTagName("tag")------used to get the reference of tag with the tag
+3-document.getElementByClassName()-----using class name
+
+
