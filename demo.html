@@ -71,16 +71,31 @@
         //     }
             
         // );
-        const one=['have','hello','hii','byee'];
-        const d=one.filter((item)=>item.includes('h'))
+        // const one=['have','hello','hii','byee'];
+        // const d=one.filter((item)=>item.includes('h'))
+        // d.map((item)=>{
+        //     console.log(item)
+        // })
+        // one.map((item)=>{
+        //     if(item.includes('h')){
+        //         console.log(item);
+        //     }
+        // })
+        // const three=[12,34,56,78,90];
+        // sum=three.reduce((accumulator,currentvalue)=>{
+        //         return accumulator+currentvalue;
+        // },-2700);
+        // console.log(sum)
+        const four=[10,20,30,40,50,55];
+        const d=four.filter((item)=>item>18);
         d.map((item)=>{
-            console.log(item)
+            console.log(item);
         })
-        one.map((item)=>{
-            if(item.includes('h')){
-                console.log(item);
-            }
-        })
+        s=d.reduce((a,c)=>{
+            return a-c;
+        },10);
+        console.log(s   )
+        
     </script>
 </body>
 
